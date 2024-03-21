@@ -41,6 +41,9 @@ align-items: center;
             font-size: 16px;
             background-color: white;
             padding: 16px 34px 10px 34px;
+            :hover {
+                cursor: pointer;
+            }
         }
         .bobcat {
             background-color: #FF3600;
