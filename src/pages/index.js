@@ -15,4 +15,10 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => (
+  <>
+    <html lang="en" />
+    <title>Bobcat Products | 24/7 Mechanical Servicing | Pro Mechanical LTD</title>
+    <meta name="description" content="Pro Mechanical LTD is an approved Bobcat Supplier."/>
+  </>
+)
