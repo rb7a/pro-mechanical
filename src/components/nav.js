@@ -49,7 +49,7 @@ z-index: 200;
             font-weight: 700;
             span {
                 padding-left: 2px;
-                bottom: -.5px;
+                bottom: -2px;
                 position: relative;
                 font-size: 14px;
             }
