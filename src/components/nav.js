@@ -7,6 +7,7 @@ import Hamburger from "../components/hamburger"
 const Wrapper = styled.div`
 width: 100%;
 position: fixed;
+padding-top: 5px;
 // overflow-x: hidden;
 z-index: 200;
 .active {
