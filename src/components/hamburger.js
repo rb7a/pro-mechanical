@@ -28,11 +28,14 @@ box-sizing: border-box;
     height: 3px;
     border-radius: 40px;
     position: absolute;
-    background: #1a1a1a;
+    // background: #1a1a1a;
+    background: white;
     transition: all 250ms ease-out;
     will-change: transform;
   }
-  
+  .active {
+    filter: invert(1005%);
+  }
   .burger:before {
     transform: translateY(13px);
   }
@@ -50,7 +53,7 @@ box-sizing: border-box;
   .active.burger:after {
     transform: translateY(20px) rotate(-45deg);
   } 
-@media(max-width: 1060px){
+@media(max-width: 1420px){
   display: block;
 }
 `

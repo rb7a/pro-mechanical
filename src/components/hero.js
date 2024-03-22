@@ -71,6 +71,32 @@ align-items: center;
         // padding-left: 10px;
     }
 }
+@media(max-width: 1395px){
+    .scroll-section {
+        bottom: 100px;
+    }
+}
+@media(max-width: 825px){
+    .scroll-section {
+        bottom: 120px;
+    }
+}
+@media(max-width: 745px){
+    .scroll-section {
+        bottom: 140px;
+    }
+    a {
+        text-align: center;
+    }
+}
+@media(max-width: 600px){
+    .scroll-section {
+        display:none;
+    }
+    .center-content {
+        display: none;
+    }
+}
 `
 
 export default function Hero(){
