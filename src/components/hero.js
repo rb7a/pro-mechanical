@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "@emotion/styled"
-import HeroVideo from "../videos/ProMechanicalLTD.mp4"
+import HeroVideo from "../videos/ProMechanical.mp4"
 import { StaticImage } from "gatsby-plugin-image"
 
 const Wrapper = styled.div`

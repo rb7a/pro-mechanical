@@ -8,6 +8,9 @@ const IndexPage = () => {
     <Layout>
     <main>
       <Hero/>
+      <div>
+      {/* <h1 style={{padding:80}}>YOUR TRUSTED  WAIKATO MECHANIC AND BOBCAT DEALER.<br/><br/> WE DELIVER A FULL SUITE OF MECHANICAL & ENGINEERING SERVICES, FROM HAND TOOL REPAIR TO FULL DIESEL FLEETS & MACHINARY.</h1> */}
+      </div>
     </main>
     </Layout>
   )
