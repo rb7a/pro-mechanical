@@ -20,6 +20,13 @@ align-items: center;
     grid-area: 1/1;
     display: grid;
     height: 100vh;
+    :before {
+        content: "";
+        position: absolute;
+        left: 0; right: 0;
+        top: 0; bottom: 0;
+        background: linear-gradient(0deg, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0) 20%, rgba(0,0,0,0) 80%, rgba(0,0,0,0.4) 100%);
+    }
 }
 .center-content {
     z-index: 100;

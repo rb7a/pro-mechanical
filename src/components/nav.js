@@ -18,7 +18,7 @@ z-index: 200;
     left: 0;
     right: 0;
     z-index: 300;
-    position: static;
+    position: relative;
     color: white;
     display: flex;
     // width: 100vw;
